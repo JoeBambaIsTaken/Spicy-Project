@@ -22,7 +22,7 @@
     text-decoration: none;
     color: white;
     background-color: var(--black);
-    padding: 0.3rem;
+    padding: 0.4rem;
     font-weight: 600;
     max-width: 150px;
 }
@@ -38,9 +38,8 @@
 
 
 span {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.7rem;
     padding-top: 0;
 }

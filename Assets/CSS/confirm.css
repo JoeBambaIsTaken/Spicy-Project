@@ -1,0 +1,46 @@
+:root{
+    --black: #000;
+    --light-grey: #333;
+    --red: #c82113;
+    --dark-red: #94180e;
+    --light-blue: #1085df;
+    --dark-blue: #0e5a94;
+}
+
+.confirmed {
+    font-size: 16px;  
+}
+
+.confirmed hgroup {
+    text-align: center;
+}
+
+.confirmed a {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+        background-color: var(--black);
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-weight: 600;
+        font-size: 19px;
+        max-width: 150px;
+}
+
+.confirmed a:hover {
+    background-color: var(--light-grey);
+}
+
+.confirmed i {
+    font-style: normal;
+    color: var(--red);
+}
+
+.confirmed span {
+display: flex;
+justify-content: center;
+}
