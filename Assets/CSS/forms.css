@@ -1,0 +1,46 @@
+:root{
+    --black: #000;
+    --light-grey: #333;
+    --red: #c82113;
+    --dark-red: #94180e;
+    --light-blue: #1085df;
+    --dark-blue: #0e5a94;
+}
+
+.form hgroup {
+    text-align: center;
+}
+
+.form {
+    display: block;
+    font-size: 19px;
+}
+
+.form a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: var(--black);
+    padding: 0.3rem;
+    font-weight: 600;
+    max-width: 150px;
+}
+
+.form a:hover {
+    background-color: var(--light-grey);
+}
+
+.main-form {
+    display: flex;
+    justify-content: center;
+}
+
+
+span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+    padding-top: 0;
+}
