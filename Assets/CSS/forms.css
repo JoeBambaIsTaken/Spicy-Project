@@ -39,7 +39,8 @@
 
 span {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     padding: 0.7rem;
     padding-top: 0;
+    gap: 1rem;
 }
