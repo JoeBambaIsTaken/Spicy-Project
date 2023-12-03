@@ -4,6 +4,7 @@
 @import url(footer.css);
 @import url(forms.css);
 @import url(confirm.css);
+@import url(JS.css);
 
 :root{
     --black: #000;
